@@ -1,0 +1,51 @@
+/*
+ * File: vehicles.component.css
+ * Authors: Szűcs Norbert
+ * Copyright: 2022, Szűcs Norbert
+ * Group: Szoft II/N
+ * Date: 2022-03-05
+ * Github: https://github.com/Szucs-Norbert
+ * Licenc: GNU GPL
+*/
+button{
+
+    font-size: large;
+    border:0;
+
+}
+
+input{
+    border:2px solid red;
+    border-radius: 10px;
+    width: 250px;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+table{
+    border: 1px solid black;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.list{
+    display: flex;
+    width: 50%;
+    text-align: center;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
